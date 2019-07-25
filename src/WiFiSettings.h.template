@@ -1,0 +1,7 @@
+/*
+ * File for storing ssid and password data
+ * Create a file called WiFiSettings.h with these hash defines
+ */ 
+
+#define WIFISETTINGS_SSID "BLAH"
+#define WIFISETTINGS_PASSWORD "MYPASS"
