@@ -86,7 +86,7 @@ Status Tenma_GetStatus(void)
     // Just manually shift them for now
     Status status = {.CH1Mode = (uint8_t)((byte >> 0) & 0x1),
                      .CH2Mode = (uint8_t)((byte >> 1) & 0x1),
-                     .Tracking = (uint8_t)((byte >> 3) & 0x3),
+                     .Tracking = (uint8_t)((byte >> 2) & 0x3),
                      .Beep = (uint8_t)((byte >> 4) & 0x1),
                      .Lock = (uint8_t)((byte >> 5) & 0x1),
                      .Output = (uint8_t)((byte >> 6) & 0x1),
